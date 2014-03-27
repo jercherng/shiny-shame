@@ -1,0 +1,54 @@
+@font-face
+{
+	font-family: FORTE;
+	src: url(FORTE.TFF);
+}
+
+
+body {
+	background-color: purple;
+	font-family: Verdana;
+	color:white;
+	margin:0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+h1 {
+	color:white;
+	font-family: FORTE;
+}
+
+p {
+	padding: 10px 2px;
+	background-color: gray;
+}
+
+nav h1 { 
+	display: inline;
+}
+
+nav ul li {
+	display: inline;
+	background:black;
+	padding: 5px 15px;
+	list-style-type: none;
+}
+
+nav ul li a:hover {
+	background-color: white;
+	color:black;
+	font-weight: bold;
+	padding: 5px 15px;
+}
+
+header {
+	display:inline;
+}
