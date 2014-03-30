@@ -4,51 +4,67 @@
 	src: url(FORTE.TFF);
 }
 
-
 body {
-	background-color: purple;
-	font-family: Verdana;
-	color:white;
 	margin:0;
 }
 
-a {
-	color: white;
-	text-decoration: none;
-}
-
-a:hover {
-	font-weight: bold;
-}
-
-h1 {
+header {
+	background: #999;
 	color:white;
-	font-family: FORTE;
+	padding: 15px 15px 0px 15px;
 }
 
-p {
-	padding: 10px 2px;
-	background-color: gray;
-}
-
-nav h1 { 
+header h1 {
+	margin: 0;
 	display: inline;
+}
+
+nav ul {
+	margin: 0;
+	display:inline;
+	padding: 0px 0px 0px 15px;
 }
 
 nav ul li {
-	display: inline;
-	background:black;
-	padding: 5px 15px;
+	background: black;
+	display:inline-block;
+	/*---You give them a fixed width so that you can do more with it---*/
 	list-style-type: none;
-}
-
-nav ul li a:hover {
-	background-color: white;
-	color:black;
-	font-weight: bold;
 	padding: 5px 15px;
 }
 
-header {
-	display:inline;
+nav ul li a {
+	color: white;
+text-decoration: none;
+
 }
+/*
+footer {
+	font-family: Verdana;
+	font-size: 8px;
+	float: right;
+	clear: both;
+}*/
+
+.row:after { 
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+.col {
+	float: left;
+	padding-right: 10px .5%;
+	background: #333;
+	margin: 1%;
+	width: 31%;
+	color: white;
+	border-radius: 5px;
+}
+
+.parts {
+	clear:both;
+	margin-top: 10px;
+}
+
+
